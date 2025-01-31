@@ -14,143 +14,19 @@
     <link rel="stylesheet" href="./assets/css/com.css">
 
     <!-- Título da Página -->
-    <title>Oportunidad exclusiva - Plan AAG</title>
+    <title>Oportunidad exclusiva - Guía SNPD</title>
     
     <style type="text/css">
       body {
         color: rgb(0, 0, 0);
         background-image: url("assets/img/bg.jpeg");
-        background-color: #f8f9fb;
+        background-color: #f4f4f4;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
         background-blend-mode: darken;
       }
     </style>
-
-<html lang="pt-BR">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Barra de Progresso e Timer</title>
-      <style>
-          body {
-              font-family: Arial, sans-serif;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              height: 100vh;
-              margin: 0;
-              background-color: #f4f4f4;
-          }
-  
-          /* Barra de progresso */
-          .progress-container {
-              width: 90%;
-              max-width: 600px;
-              margin-bottom: 50px;
-          }
-  
-          .progress-bar {
-              width: 100%;
-              background-color: #d8d9db;
-              border-radius: 25px;
-              overflow: hidden;
-              position: relative;
-              height: 30px;
-              display: flex;
-              align-items: center;
-          }
-  
-          .progress-bar-fill {
-              width: 70%;
-              height: 100%;
-              background-color: #9d0000;
-              text-align: center;
-              line-height: 30px;
-              color: #fff;
-              font-weight: bold;
-          }
-  
-          /* Timer circular */
-          .timer-container {
-              position: relative;
-              width: 150px;
-              height: 150px;
-          }
-  
-          .timer-circle {
-              width: 100%;
-              height: 100%;
-              border-radius: 50%;
-              background: conic-gradient(#9d0000 0%, #d8d9db 0%);
-              display: flex;
-              align-items: center;
-              justify-content: center;
-          }
-  
-          .timer-text {
-              position: absolute;
-              font-size: 1.5rem;
-              font-weight: bold;
-              color: #000;
-          }
-  
-          @keyframes countdown {
-              from {
-                  background: conic-gradient(#9d0000 0%, #d8d9db 100%);
-              }
-              to {
-                  background: conic-gradient(#d8d9db 100%, #d8d9db 100%);
-              }
-          }
-      </style>
-  </head>
-  <body>
-  
-      <!-- Barra de progresso -->
-      <div class="progress-container">
-          <div class="progress-bar">
-              <div class="progress-bar-fill">Casi completo... Tu pedido aún no ha sido finalizado!</div>
-          </div>
-      </div>
-  
-      <!-- Timer de contagem regressiva -->
-      <div class="timer-container">
-          <div class="timer-circle" id="timer-circle">
-              <span class="timer-text" id="timer-text">15:00</span>
-          </div>
-      </div>
-  
-      <script>
-          // Configuração do Timer
-          const TOTAL_TIME = 15 * 60; // 15 minutos em segundos
-          let currentTime = TOTAL_TIME;
-  
-          const timerText = document.getElementById('timer-text');
-          const timerCircle = document.getElementById('timer-circle');
-  
-          function updateTimer() {
-              // Atualiza o texto do timer
-              const minutes = Math.floor(currentTime / 60);
-              const seconds = currentTime % 60;
-              timerText.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-  
-              // Atualiza a animação da barra circular
-              const percentage = (currentTime / TOTAL_TIME) * 100;
-              timerCircle.style.background = `conic-gradient(#9d0000 ${percentage}%, #d8d9db ${percentage}%)`;
-  
-              if (currentTime > 0) {
-                  currentTime--;
-              }
-          }
-  
-          // Atualiza o timer a cada segundo
-          setInterval(updateTimer, 1000);
-      </script>
-  </body>
-  </html>
 
   </head>
   <body>
@@ -159,57 +35,23 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
-            
+            <!-- Imagem Ultrasecreto -->
             
 
             <!-- Headline -->
-            <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Ventas</title>
-    <!-- Link para carregar a fonte Exo 2 -->
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Estilo global para garantir que a fonte Exo 2 seja usada */
-        body {
-            font-family: 'Exo 2', sans-serif !important;
-        }
-    </style>
-</head>
-<body>
-    <h3 class="my-4" style="font-family: 'Exo 2', sans-serif;">
-        <b>¡Felicidades! Este ha sido el paso más importante que has dado hasta ahora.
-            <span style="color: red;"></span> 
-            ¡Esta decisión te ha llevado al siguiente nivel! 
-            <span style="color: green;"></span> – 
-            <i></i>
-        </b>
-    </h3>
-</body>
-</html>
+            <h3 class="my-4"><b> Casi Completo... ¡Tu Pedido Aún no ha Sido Concluido! </b></h3>
 
+            <!-- Headline -->
+            <h2 class="my-4"><b> ¡Felicidades! ¡Este fue el paso más importante que has dado hasta aquí!
+
+              ¡Esta decisión te llevó al siguiente paso! </b></h2>
+           
             <!-- VSL -->
             <script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/i0pauusby3.js" async type="module"></script><style>wistia-player[media-id='i0pauusby3']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/i0pauusby3/swatch'); display: block; filter: blur(5px); padding-top:56.25%; }</style> <wistia-player media-id="i0pauusby3"></wistia-player>           
             
-            
-            <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Ventas</title>
-    <!-- Link para carregar a fonte Exo 2 -->
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Estilo global para garantir que a fonte Exo 2 seja usada */
-        body {
-            font-family: 'Exo 2', sans-serif !important;
-        }
-    </style>
+          
 
-
-<!-- HOTMART - Sales Funnel Widget -->
+           <!-- HOTMART - Sales Funnel Widget -->
 <!--- sales funnel container --->
 <div id="hotmart-sales-funnel"></div>
 
@@ -220,12 +62,6 @@ checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
 </script>
 <!-- HOTMART - Sales Funnel Widget -->
 
-
-
-
-
-
-
             <!-- Termos de Uso e Política de Privacidade -->
             <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
           </div>
@@ -234,7 +70,7 @@ checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel')
     </header>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 1935000); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")}, 1530000); // temporização da Call to Action (em milissegundos)
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
